@@ -1,0 +1,11 @@
+Enter number of log Entries: 3
+Enter 3 Unix Timestamps:
+171584200 171584100 171584300
+
+Chronologically Sorted Timestamps:
+171584100
+171584200
+171584300
+
+--------------------------------
+Process exited with return value 0

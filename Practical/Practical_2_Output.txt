@@ -1,0 +1,9 @@
+Enter number of scrolls in the vault: 4
+Enter sorted Archive IDs:
+50 100 200 300
+Enter the Archive ID to search for: 500
+
+Error: Scroll ID 500 not found in the archives.
+
+--------------------------------
+Process exited with return value 0
