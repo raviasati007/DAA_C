@@ -1,0 +1,51 @@
+﻿Test Case,Matrix A (4×4),Matrix B (4×4),Purpose,Expected Output (C = A × B)
+Identity Check,"1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1","2 3 4 5
+6 7 8 9
+10 11 12 13
+14 15 16 17",Verify multiplication with identity returns B,"2 3 4 5
+6 7 8 9
+10 11 12 13
+14 15 16 17"
+Zero Matrix,"0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0","1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16",Multiplying by zero should yield zero,"0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0"
+Symmetric × Uniform,"1 2 3 4
+2 1 4 3
+3 4 1 2
+4 3 2 1","1 1 1 1
+1 1 1 1
+1 1 1 1
+1 1 1 1",Tests uniform multiplication consistency,"10 10 10 10
+10 10 10 10
+10 10 10 10
+10 10 10 10"
+Sequential Numbers,"1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16","16 15 14 13
+12 11 10 9
+8 7 6 5
+4 3 2 1",Known example for validation,"80 70 60 50
+240 214 188 162
+400 358 316 274
+560 502 444 386"
+Random Navigation,"3 5 7 9
+2 4 6 8
+1 0 1 0
+9 8 7 6","6 5 4 3
+7 6 5 4
+8 7 6 5
+9 8 7 6",Arbitrary values to test robustness,"190     166     142     118
+160     140     120     100
+14      12      10      8
+220     190     160     130"

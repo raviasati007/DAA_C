@@ -1,0 +1,20 @@
+Enter elements of the first 4x4 matrix (A):
+3 5 7 9
+2 4 6 8
+1 0 1 0
+9 8 7 6
+Enter elements of the second 4x4 matrix (B):
+6 5 4 3
+7 6 5 4
+8 7 6 5
+9 8 7 6
+
+Product Matrix (Result):
+190     166     142     118
+160     140     120     100
+14      12      10      8
+220     190     160     130
+
+--------------------------------
+Process exited after 14.46 seconds with return value 0
+Press any key to continue . . .
