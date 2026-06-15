@@ -1,4 +1,3 @@
-📂 Repository Structure
 Practical  
 # 📘 Design & Analysis of Algorithms – Practical List (C)
 
