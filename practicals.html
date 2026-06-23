@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -20,3 +20,180 @@
   </main>
 </body>
 </html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Practicals Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #004466;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    .dashboard {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #004466;
+      font-size: 1.3em;
+    }
+    .card p {
+      color: #555;
+      line-height: 1.5;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: #004466;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.9em;
+      transition: background 0.2s ease;
+    }
+    .card a:hover {
+      background: #006699;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Practicals Dashboard</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="syllabus.html">Syllabus</a>
+      <a href="theory.html">Theory Concepts</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="dashboard">
+      <div class="card">
+        <h2>Pre-Lab</h2>
+        <p>Analyze time & space complexity of prime number generation up to n.</p>
+        <p><strong>Concept:</strong> Complexity Analysis</p>
+        <a href="practicals/prelab.html">View Details</a>
+      </div>
+
+      <div class="card">
+        <h2>Practical 1</h2>
+        <p>Sort massive server logs chronologically using timestamps.</p>
+        <p><strong>Concept:</strong> Quick Sort</p>
+        <a href="practicals/practical1.html">View Details</a>
+      </div>
+
+      <div class="card">
+        <h2>Practical 2</h2>
+        <p>Locate first occurrence of manuscript Archive ID efficiently.</p>
+        <p><strong>Concept:</strong> Binary Search</p>
+        <a href="practicals/practical2.html">View Details</a>
+      </div>
+
+      <div class="card">
+        <h2>Practical 3</h2>
+        <p>Optimize spacecraft trajectory with matrix multiplication.</p>
+        <p><strong>Concept:</strong> Strassen’s Algorithm</p>
+        <a href="practicals/practical3.html">View Details</a>
+      </div>
+
+      <div class="card">
+        <h2>Practical 4</h2>
+        <p>Minimize fiber internet network installation cost.</p>
+        <p><strong>Concept:</strong> Kruskal’s MST</p>
+        <a href="practicals/practical4.html">View Details</a>
+      </div>
+
+      <div class="card">
+        <h2>Practical 5</h2>
+        <p>Real-time ambulance routing in Mumbai.</p>
+        <p><strong>Concept:</strong> Dijkstra’s Algorithm</p>
+        <a href="practicals/practical5.html">View Details</a>
+      </div>
+
+      <div class="card">
+        <h2>Practical 6</h2>
+        <p>Optimize drone delivery routes.</p>
+        <p><strong>Concept:</strong> Travelling Salesman Problem (DP)</p>
+        <a href="practicals/practical6.html">View Details</a>
+      </div>
+
+      <div class="card">
+        <h2>Practical 7</h2>
+        <p>Compare DNA sequences for evolutionary traits.</p>
+        <p><strong>Concept:</strong> Longest Common Subsequence</p>
+        <a href="practicals/practical7.html">View Details</a>
+      </div>
+
+      <div class="card">
+        <h2>Practical 8</h2>
+        <p>Detect arbitrage opportunities in currency exchange.</p>
+        <p><strong>Concept:</strong> Bellman-Ford Algorithm</p>
+        <a href="practicals/practical8.html">View Details</a>
+      </div>
+
+      <div class="card">
+        <h2>Practical 9</h2>
+        <p>Place antennas without interference on a grid.</p>
+        <p><strong>Concept:</strong> N-Queens Problem</p>
+        <a href="practicals/practical9.html">View Details</a>
+      </div>
+
+      <div class="card">
+        <h2>Practical 10</h2>
+        <p>Trace social media post reach.</p>
+        <p><strong>Concept:</strong> Depth-First Search</p>
+        <a href="practicals/practical10.html">View Details</a>
+      </div>
+
+      <div class="card">
+        <h2>Post-Lab</h2>
+        <p>Open-ended practical defined by students.</p>
+        <p><strong>Concept:</strong> Student-defined</p>
+        <a href="practicals/postlab.html">View Details</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+
