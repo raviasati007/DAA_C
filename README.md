@@ -31,3 +31,7 @@ Each practical is inspired by real-world scenarios and mapped to course outcomes
    ```bash
    git clone https://github.com/raviasati007/daa_c.git
    cd daa_c
+## 🌐 Live Webpage
+
+Explore the practicals dashboard and details online:  
+👉 **[DAA Practical Webpage](https://raviasati007.github.io/DAA_C/)**
