@@ -1,7 +1,6 @@
-Practical  
 # 📘 Design & Analysis of Algorithms – Practical List (C)
 
-This repository contains **C language solutions** for the **DAA Practical List** (Session 2026–27) at *S. B. Jain Institute of Technology, Management & Research, Nagpur*.  
+This repository contains **C language implementations** for the **DAA Practical List** (Session 2026–27) at *S. B. Jain Institute of Technology, Management & Research, Nagpur*.  
 
 Each practical is inspired by real-world scenarios and mapped to course outcomes.
 
@@ -26,8 +25,9 @@ Each practical is inspired by real-world scenarios and mapped to course outcomes
 
 ---
 
-## ⚙️ How to Compile & Run
+## ⚙️ How to Download & Run
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/daa-practicals-c.git
-   cd daa-practicals/practicals
+   git clone https://github.com/raviasati007/daa_c.git
+   cd daa_c
